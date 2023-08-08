@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Newyork";
+    src: url("./images/fonts/NewYork\ PERSONAL\ USE.otf");
+  }
+
+@font-face {
+    font-family: "Nordeco";
+    src: url("./images/fonts/Nordeco-SemiBold.ttf");
+  }
+
+@font-face {
+    font-family: "Nordeco-light";
+    src: url("./images/fonts/Nordeco-Regular.woff");
+  }
+  .circleBtn{
+    width: 160px;
+  height: 60px;
+  border: white 2px  solid;
+  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circleBtn1{
+    width: 220px;
+  height: 70px;
+  border: black 0.5px  solid;
+  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circleBtn2{
+    width: 220px;
+  height: 70px;
+  border: black 0.5px  solid;
+  border-radius: 50%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  .ihih{
+    transform: rotate(7deg);
+  }
+  .ooo{
+    transform: rotate(-9deg);
+  }
+  .no-outline:focus{
+    outline: none; 
+    padding: 4px; 
+    margin-top:2px;
+    margin-bottom: 2px;
+  }
